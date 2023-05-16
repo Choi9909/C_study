@@ -1,0 +1,15 @@
+#include<stdio.h>
+
+int plus(int v1, int v2)
+{
+	int result;
+	return v1 + v2;
+}
+
+void main()
+{
+	int hap;
+	hap = plus(100, 200);
+
+	printf("100과 200의 plus() 함수의 결과는 : %d\n", hap);
+}
